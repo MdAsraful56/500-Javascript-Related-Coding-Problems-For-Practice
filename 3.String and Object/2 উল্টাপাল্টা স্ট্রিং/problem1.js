@@ -5,3 +5,11 @@ for (const letter of string1) {
   reverse1 = letter + reverse1;
 }
 console.log("Problem 1:", reverse1); // Output: "olleh"
+
+
+const object = 'Hello World';
+let reversel = "";
+for (const element of object) {
+  reversel = element + reversel;
+}
+console.log("Problem 2:", reversel); 
